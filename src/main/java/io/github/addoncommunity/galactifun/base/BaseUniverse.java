@@ -172,9 +172,7 @@ public final class BaseUniverse {
                     .add(Gas.NITROGEN, 77.084) // subtracted 1 to allow water to fit in
                     .add(Gas.OXYGEN, 20.946)
                     .add(Gas.WATER, 0.95)
-                    .add(Gas.ARGON, 0.934)
-                    .add(Gas.CARBON_DIOXIDE)
-                    .add(Gas.METHANE, 4.0)
+                    .add(Gas.METHANE, 6.0)
                     .addEffect(AtmosphericEffect.COLD, 1)
                     .build(),
             Gravity.MOON_LIKE
