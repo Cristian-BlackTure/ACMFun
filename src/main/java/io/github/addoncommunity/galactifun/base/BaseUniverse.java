@@ -167,7 +167,7 @@ public final class BaseUniverse {
             EARTH,
             new ItemStack(Material.ANDESITE),
             DayCycle.EARTH_LIKE,
-            newAtmosphereBuilder()
+            new AtmosphereBuilder()
                     .add(Gas.NITROGEN, 77.084) // subtracted 1 to allow water to fit in
                     .add(Gas.OXYGEN, 20.946)
                     .add(Gas.WATER, 0.95)
