@@ -160,6 +160,19 @@ public final class BaseUniverse {
                     .build(),
             Gravity.MOON_LIKE
     );
+    public static final AlienWorld TYRA = new Tyra(
+            "The Tyra",
+            PlanetaryType.TERRESTRIAL,
+            Orbit.kilometers(382_500L, 27),
+            EARTH,
+            new ItemStack(Material.ANDESITE),
+            DayCycle.EARTH_LIKE,
+            newAtmosphereBuilder()
+                    .add(Gas.METHANE, 4.0)
+                    .addEffect(AtmosphericEffect.COLD, 1)
+                    .build(),
+            Gravity.MOON_LIKE
+    );
     public static final AlienWorld MARS = new Mars(
             "&cMars",
             PlanetaryType.TERRESTRIAL,
@@ -211,6 +224,7 @@ public final class BaseUniverse {
         MARS.addSpecies(BaseAlien.MARTIAN);
         THE_MOON.addSpecies(BaseAlien.MUTANT_CREEPER);
         TITAN.addSpecies(BaseAlien.LEECH, BaseAlien.TITAN, BaseAlien.TITAN_KING, BaseAlien.SKYWHALE);
+        TYRA.addSpecies(BaseAlien.MUTANT_CREEPER);
 
         VENUS.register(galactifun);
         IO.register(galactifun);
@@ -221,6 +235,7 @@ public final class BaseUniverse {
         TITAN.register(galactifun);
         MARS.register(galactifun);
         THE_MOON.register(galactifun);
+        TYRA.register(galactifun);
     }
 
 }
