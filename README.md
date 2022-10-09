@@ -8,3 +8,8 @@ ACM Planet Extension Pack from the game Mindustry
 -Credit to Galacticfun
 
 – Made By Cristian BlackTure
+
+# Special Warning ⚠️
+
+Already has Galacticfun Installed 
+
