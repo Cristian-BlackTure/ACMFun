@@ -32,6 +32,7 @@ import io.github.addoncommunity.galactifun.base.universe.jupiter.Europa;
 import io.github.addoncommunity.galactifun.base.universe.jupiter.Io;
 import io.github.addoncommunity.galactifun.base.universe.saturn.Enceladus;
 import io.github.addoncommunity.galactifun.base.universe.saturn.Titan;
+import io.github.addoncommunity.galactifun.api.universe.attributes.atmosphere.Gas;
 
 /**
  * Registry of objects, aliens, and worlds in the base universe
