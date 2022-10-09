@@ -90,6 +90,14 @@ public final class BaseMats {
             "&7You'll never guess how long it took us",
             "&7to name this material"
     );
+    public static final SlimefunItemStack HYPER_INGOT = new SlimefunItemStack(
+            "HYPER_INGOT",
+            Material.IRON_INGOT,
+            "&fHyper Ingot",
+            "",
+            "&7You'll never guess how long it took us",
+            "&7to name this material"
+    );
     public static final SlimefunItemStack TUNGSTEN_INGOT = new SlimefunItemStack(
             "TUNGSTEN_INGOT",
             Material.NETHERITE_INGOT,
