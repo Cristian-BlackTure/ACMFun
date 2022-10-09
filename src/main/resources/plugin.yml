@@ -1,6 +1,6 @@
-name: Galactifun
-authors: [Seggan, Mooy1, ProfElements, GallowsDove]
-description: Space addon for Slimefun
+name: ACMFun
+authors: [Seggan, Mooy1, ProfElements, GallowsDove, Cristian BlackTure]
+description: Extension For Galacticfun
 main: io.github.addoncommunity.galactifun.Galactifun
 version: ${project.version}
 api-version: 1.16
