@@ -172,7 +172,7 @@ public final class BaseUniverse {
                     .add(Gas.OXYGEN, 20.946)
                     .add(Gas.WATER, 0.95)
                     .add(Gas.ARGON, 0.934)
-                    .add(Gas.CARBON_DIOXIDE, EARTH_CARBON_DIOXIDE)
+                    .add(Gas.CARBON_DIOXIDE)
                     .add(Gas.METHANE, 4.0)
                     .addEffect(AtmosphericEffect.COLD, 1)
                     .build(),
