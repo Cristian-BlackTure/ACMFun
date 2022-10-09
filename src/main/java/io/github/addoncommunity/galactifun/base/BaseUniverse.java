@@ -27,6 +27,7 @@ import io.github.addoncommunity.galactifun.base.universe.Venus;
 import io.github.addoncommunity.galactifun.base.universe.earth.Earth;
 import io.github.addoncommunity.galactifun.base.universe.earth.EarthOrbit;
 import io.github.addoncommunity.galactifun.base.universe.earth.TheMoon;
+import io.github.addoncommunity.galactifun.base.universe.earth.Tyra;
 import io.github.addoncommunity.galactifun.base.universe.jupiter.Europa;
 import io.github.addoncommunity.galactifun.base.universe.jupiter.Io;
 import io.github.addoncommunity.galactifun.base.universe.saturn.Enceladus;
